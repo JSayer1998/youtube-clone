@@ -1,0 +1,39 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    top: 55px;
+    width: 75px;
+    padding-top: 10px;
+    background-color: white;
+    margin-top: 0px;
+    z-index: 200;}
+
+.navigation-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 74px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;}
+
+.navigation-button:hover {background-color: #e7e7e7;}
+
+.nav-icon {
+    width:25px;
+    height: 25px;
+    object-fit: cover;
+    border: none;}
+
+.nav-text {
+    font-size: 10px;
+    line-height: 15px;
+    color: rgb(33, 37, 41);
+    width: 72px;}

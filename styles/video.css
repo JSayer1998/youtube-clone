@@ -1,0 +1,118 @@
+.video-info {
+    display: inline-block;
+    width: 1fr;}
+
+.thumbnail{
+    width:100%;
+    display: block;}
+
+.video-info-grid{
+    display: flex;
+    grid-template-columns: 50px 1fr;
+    margin-left: 10px;
+    column-gap: 5px;}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:25px;
+    row-gap:30px;
+    padding: 20px;}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;}}
+
+@media (min-width: 870px) and (max-width: 1120px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;}}
+
+@media (min-width: 1121px) {
+.video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;}}
+
+
+.channel-picture{
+    width: 42px;
+    vertical-align: top;}
+
+.video-title{
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(33, 37, 41);
+    font-family: roboto, Arial;
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    width: 1fr;
+    margin-bottom:10px;
+    margin-block-end: 2px;
+    margin-block-start: 0px;}
+
+.video-stats{  
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    line-height: 21px;
+    margin-bottom: 7px;
+    margin-block-end: 4px;
+    margin-block-start: 0px;
+    width: 180px}
+
+.channel-name{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    font-family: Arial;
+    padding: 0px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    width: 284px;
+    height:21px}
+
+.video-description{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 20px;
+    font-family: Arial;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    width: 284px;}
+
+.apple-banner{    
+    margin-bottom:50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;}
+
+.profile-picture{
+    width:36px;
+    border-radius: 50%;}
+
+.thumbnail-row { margin-bottom: 15px}
+
+.video {
+    position: relative;
+    margin-bottom: 12px;}
+
+.video-time {
+    background-color: black;
+    font-size:12px;
+    font-weight: 500;
+    font-family: roboto, arial;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    border-radius: 2px;
+    padding-left: 4px;
+    padding-right: 4px;}
